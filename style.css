@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+
+.navbar-nav {
+  margin-right: 0 !important;
+  padding-right: 100px;
+}
+
+.navbar {
+  background-color: #15253c;
+  color: #f1faee !important;
+}
+
+.nav-item a {
+  color: white !important ;
+  border-radius: 30% 0% 30% 0% !important;
+}
+
+.nav-item a:hover {
+  transition: 0.5s;
+  color: black !important;
+  background-color: #a8dadc;
+}
+
+.nav-item {
+  padding-left: 2px;
+}
+
+.navbar-brand {
+  color: white !important;
+  padding-left: 100px;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+#navbar button {
+  color: white !important;
+}
+.rounded {
+  border-radius: 30% 0% 30% 0% !important;
+}
+
+/* banner */
+
+#banner-container {
+  background-color: #15253c;
+  color: white !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#banner-row img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  padding-left: 30px;
+}
+
+#banner-row h3,
+p {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#banner-row a {
+  background-color: #e63946 !important;
+  color: #f1faee !important;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#banner-row a:hover{
+  background-color: #a8dadc !important;
+  color: #15253c !important;
+  transition: 0.5s;
+}
+
+#banner-col {
+  padding-left: 20px;
+}
+/* service */
+#service {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#service h1 {
+  padding-bottom: 35px;
+}
+
+/* about */
+
+#about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about h1 {
+  padding-bottom: 35px;
+}
+
+#about-col ul {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+#about-col ul li {
+  padding-top: 15px;
+}
+
+/* product */
+
+#product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#product h1 {
+  padding-bottom: 35px;
+}
+
+#product-col2 ul {
+  padding-top: 10px;
+}
+
+#product-col2 ul li {
+  padding-top: 15px;
+}
+
+/* social */
+
+#social {
+  padding-top: 20px;
+  padding-bottom: 26px;
+}
+
+#social h1 {
+  padding-bottom: 35px;
+}
+
+.social-col a:hover img {
+  transform: translateY(-10px);
+}
+
+#social-row {
+  flex-direction: row;
+}
+
+/* footer */
+
+.mb-3 {
+  padding-top: 10px;
+}
+
+/* media */
+@media only screen and (max-width: 987px) {
+  .navbar-brand {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #banner-row img {
+    padding-top: 20px;
+  }
+
+  .social-col {
+    width: 33%;
+  }
+}
